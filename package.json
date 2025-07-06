@@ -1,3 +1,16 @@
 {
   "name": "mott-gido-shipping-calculator",
   "version": "1.0.0
+"description": "Custom shipping calculator for Mott & Gido Ltd",
+  "main": "index.js",
+  "scripts": {
+     "build": "mkdir -p dist && cp -r src/* dist/",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
